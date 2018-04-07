@@ -1,0 +1,16 @@
+Amount of demands: 20
+Distributed: 16
+Not distributed: 4
+MOST USED NODE: 4
+{(4, 2): 20, (1, 0): 10, (4, 1): 30, (2, 4): 20}
+Processing demand: Bydgoszcz to Gdansk
+Added path Bydgoszcz to Gdansk
+defaultdict(<type 'list'>, {'Kolobrzeg': ['Bydgoszcz', 'Bialystok'], 'Bialystok': ['Bydgoszcz'], 'Gdansk': [], 'Warsaw': ['Bydgoszcz', 'Bialystok', 'Kolobrzeg', 'Gdansk']})
+Processing demand: Bialystok to Bydgoszcz
+Added path Bialystok to Bydgoszcz
+defaultdict(<type 'list'>, {'Kolobrzeg': ['Bialystok'], 'Gdansk': ['Bialystok', 'Bydgoszcz'], 'Bydgoszcz': [], 'Warsaw': ['Bialystok', 'Kolobrzeg', 'Gdansk']})
+Distributed: 20
+Not distributed: 0
+Total number of new links deployed:  3
+Total money spent:  8630.0 PLN
+Program execution: 0.00441908836365s

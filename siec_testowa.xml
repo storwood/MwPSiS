@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<network xmlns="http://sndlib.zib.de/network" version="1.0">
+ <networkStructure>
+  <nodes coordinatesType="geographical">
+   <node id="Gdansk">
+    <coordinates>
+     <x>18.6</x>
+     <y>54.2</y>
+    </coordinates>
+   </node>
+   <node id="Bydgoszcz">
+    <coordinates>
+     <x>17.9</x>
+     <y>53.1</y>
+    </coordinates>
+   </node>
+   <node id="Kolobrzeg">
+    <coordinates>
+     <x>16.1</x>
+     <y>54.2</y>
+    </coordinates>
+   </node>
+   <node id="Warsaw">
+    <coordinates>
+     <x>21.0</x>
+     <y>52.2</y>
+    </coordinates>
+   </node>
+   <node id="Bialystok">
+    <coordinates>
+     <x>23.1</x>
+     <y>53.1</y>
+    </coordinates>
+   </node>
+  </nodes>
+  <links>
+      <link id="Link_0_10">
+    <source>Gdansk</source>
+    <target>Warsaw</target>
+    <setupCost>156.0</setupCost>
+    <additionalModules>
+     <addModule>
+      <capacity>155.0</capacity>
+      <cost>156.0</cost>
+     </addModule>
+     <addModule>
+      <capacity>622.0</capacity>
+      <cost>468.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+      <link id="Link_0_2">
+    <source>Gdansk</source>
+    <target>Kolobrzeg</target>
+    <setupCost>272.0</setupCost>
+    <additionalModules>
+     <addModule>
+      <capacity>155.0</capacity>
+      <cost>272.0</cost>
+     </addModule>
+     <addModule>
+      <capacity>622.0</capacity>
+      <cost>816.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+      <link id="Link_1_2">
+    <source>Bydgoszcz</source>
+    <target>Kolobrzeg</target>
+    <setupCost>156.0</setupCost>
+    <additionalModules>
+     <addModule>
+      <capacity>155.0</capacity>
+      <cost>156.0</cost>
+     </addModule>
+     <addModule>
+      <capacity>622.0</capacity>
+      <cost>468.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+      <link id="Link_1_10">
+    <source>Bydgoszcz</source>
+    <target>Warsaw</target>
+    <setupCost>272.0</setupCost>
+    <additionalModules>
+     <addModule>
+      <capacity>155.0</capacity>
+      <cost>272.0</cost>
+     </addModule>
+     <addModule>
+      <capacity>622.0</capacity>
+      <cost>816.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+      <link id="Link_5_10">
+    <source>Bialystok</source>
+    <target>Warsaw</target>
+    <setupCost>250.0</setupCost>
+    <additionalModules>
+     <addModule>
+      <capacity>155.0</capacity>
+      <cost>250.0</cost>
+     </addModule>
+     <addModule>
+      <capacity>622.0</capacity>
+      <cost>750.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+      <link id="Link_0_5">
+    <source>Gdansk</source>
+    <target>Bialystok</target>
+    <setupCost>294.0</setupCost>
+    <additionalModules>
+     <addModule>
+      <capacity>155.0</capacity>
+      <cost>294.0</cost>
+     </addModule>
+     <addModule>
+      <capacity>622.0</capacity>
+      <cost>882.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+  </links>
+ </networkStructure>
+    </network>

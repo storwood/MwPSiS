@@ -1,0 +1,274 @@
+Amount of demands: 132
+Distributed: 33
+Not distributed: 99
+MOST USED NODE: 9
+{(7, 3): 40, (6, 9): 30, (0, 7): 70, (1, 6): 50, (0, 10): 100, (3, 7): 40, (2, 5): 30, (1, 11): 100, (10, 8): 20, (9, 0): 90, (6, 7): 10, (11, 5): 60, (7, 6): 10, (4, 10): 60, (2, 6): 40, (8, 2): 60, (5, 11): 60, (4, 5): 10, (9, 3): 60, (6, 0): 60, (11, 0): 110, (7, 5): 20, (3, 1): 20, (2, 11): 90, (3, 11): 80, (8, 9): 10, (9, 4): 50, (5, 1): 40, (10, 3): 70, (7, 2): 50, (11, 10): 10, (1, 5): 40, (0, 11): 110, (1, 10): 90, (8, 6): 20, (4, 1): 30, (6, 4): 20, (5, 4): 10, (11, 4): 70, (10, 4): 60, (7, 1): 60, (11, 9): 20, (1, 0): 10, (0, 8): 80, (4, 11): 70, (3, 5): 20, (2, 7): 50, (8, 3): 50, (4, 6): 20, (9, 2): 70, (6, 1): 50, (5, 7): 20, (11, 3): 80, (7, 4): 30, (1, 3): 20, (3, 0): 30, (2, 8): 60, (9, 8): 10, (8, 0): 80, (6, 2): 40, (3, 10): 70, (8, 10): 20, (9, 11): 20, (10, 0): 100, (1, 4): 30, (3, 9): 60, (1, 9): 80, (8, 7): 10, (4, 2): 20, (9, 6): 30, (6, 5): 10, (5, 3): 20, (7, 0): 70, (6, 8): 20, (11, 8): 30, (0, 6): 60, (1, 7): 60, (0, 9): 90, (2, 4): 20, (5, 9): 40, (4, 7): 30, (10, 11): 10, (9, 1): 80, (5, 6): 10, (11, 2): 90, (0, 3): 30, (4, 9): 50, (2, 9): 70, (8, 1): 70, (11, 1): 100, (8, 11): 30, (2, 10): 80, (9, 10): 10, (10, 1): 90, (3, 8): 50, (1, 8): 70, (9, 5): 40, (5, 2): 30, (10, 2): 80}
+Processing demand: Poznan to Katowice
+Added path Bialystok to Katowice
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan'], 'Krakow': ['Poznan', 'Bialystok', 'Kolobrzeg', 'Katowice'], 'Rzeszow': ['Poznan', 'Wroclaw', 'Bydgoszcz'], 'Szczecin': ['Poznan', 'Bialystok', 'Gdansk', 'Kolobrzeg', 'Katowice', 'Krakow'], 'Bydgoszcz': ['Poznan', 'Wroclaw'], 'Bialystok': ['Poznan'], 'Lodz': ['Poznan', 'Bialystok', 'Bydgoszcz', 'Kolobrzeg'], 'Katowice': ['Poznan'], 'Kolobrzeg': ['Poznan', 'Bialystok'], 'Gdansk': ['Poznan', 'Wroclaw'], 'Warsaw': ['Poznan', 'Gdansk', 'Katowice', 'Krakow']})
+Processing demand: Poznan to Katowice
+Added path Poznan to Katowice
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan'], 'Krakow': ['Poznan', 'Bialystok', 'Kolobrzeg', 'Katowice'], 'Rzeszow': ['Poznan', 'Wroclaw', 'Bydgoszcz'], 'Szczecin': ['Poznan', 'Bialystok', 'Gdansk', 'Kolobrzeg', 'Katowice', 'Krakow'], 'Bydgoszcz': ['Poznan', 'Wroclaw'], 'Bialystok': ['Poznan'], 'Lodz': ['Poznan', 'Bialystok', 'Bydgoszcz', 'Kolobrzeg'], 'Katowice': [], 'Kolobrzeg': ['Poznan', 'Bialystok'], 'Gdansk': ['Poznan', 'Wroclaw'], 'Warsaw': ['Poznan', 'Gdansk', 'Katowice', 'Krakow']})
+Processing demand: Lodz to Szczecin
+Added path Lodz to Szczecin
+defaultdict(<type 'list'>, {'Wroclaw': ['Lodz', 'Warsaw', 'Kolobrzeg', 'Bialystok', 'Poznan'], 'Krakow': ['Lodz', 'Szczecin'], 'Rzeszow': ['Lodz'], 'Szczecin': [], 'Bydgoszcz': ['Lodz', 'Kolobrzeg', 'Bialystok', 'Poznan', 'Wroclaw'], 'Bialystok': ['Lodz', 'Krakow', 'Kolobrzeg'], 'Poznan': ['Lodz', 'Szczecin', 'Krakow', 'Warsaw', 'Kolobrzeg', 'Bialystok'], 'Katowice': ['Lodz', 'Szczecin', 'Krakow', 'Kolobrzeg'], 'Kolobrzeg': ['Lodz'], 'Gdansk': ['Lodz', 'Szczecin', 'Warsaw', 'Poznan', 'Wroclaw'], 'Warsaw': ['Lodz', 'Szczecin', 'Krakow']})
+Processing demand: Gdansk to Poznan
+Added path Gdansk to Poznan
+defaultdict(<type 'list'>, {'Wroclaw': ['Gdansk'], 'Krakow': ['Gdansk', 'Katowice'], 'Rzeszow': ['Gdansk'], 'Szczecin': ['Gdansk', 'Katowice', 'Krakow'], 'Bydgoszcz': ['Gdansk', 'Wroclaw'], 'Bialystok': ['Gdansk', 'Wroclaw', 'Poznan'], 'Poznan': [], 'Lodz': ['Gdansk', 'Wroclaw', 'Katowice', 'Kolobrzeg'], 'Katowice': ['Gdansk', 'Wroclaw', 'Poznan'], 'Kolobrzeg': ['Gdansk', 'Wroclaw', 'Poznan', 'Katowice'], 'Warsaw': ['Gdansk', 'Katowice', 'Krakow']})
+Processing demand: Bydgoszcz to Lodz
+Added path Kolobrzeg to Lodz
+defaultdict(<type 'list'>, {'Wroclaw': ['Bydgoszcz'], 'Krakow': ['Bydgoszcz', 'Wroclaw', 'Poznan', 'Katowice'], 'Rzeszow': ['Bydgoszcz'], 'Szczecin': ['Bydgoszcz', 'Wroclaw', 'Poznan', 'Katowice', 'Krakow'], 'Bialystok': ['Bydgoszcz', 'Wroclaw', 'Poznan'], 'Poznan': ['Bydgoszcz', 'Wroclaw'], 'Lodz': ['Bydgoszcz', 'Katowice'], 'Katowice': ['Bydgoszcz', 'Wroclaw', 'Poznan'], 'Kolobrzeg': ['Bydgoszcz', 'Poznan', 'Katowice'], 'Gdansk': ['Bydgoszcz', 'Wroclaw'], 'Warsaw': ['Bydgoszcz', 'Wroclaw', 'Poznan', 'Katowice', 'Krakow']})
+Processing demand: Bydgoszcz to Lodz
+Added path Bydgoszcz to Lodz
+defaultdict(<type 'list'>, {'Wroclaw': ['Bydgoszcz'], 'Krakow': ['Bydgoszcz', 'Wroclaw', 'Poznan', 'Katowice'], 'Rzeszow': ['Bydgoszcz'], 'Szczecin': ['Bydgoszcz', 'Wroclaw', 'Poznan', 'Katowice', 'Krakow'], 'Bialystok': ['Bydgoszcz', 'Wroclaw', 'Poznan'], 'Poznan': ['Bydgoszcz', 'Wroclaw'], 'Lodz': [], 'Katowice': ['Bydgoszcz', 'Wroclaw', 'Poznan'], 'Kolobrzeg': ['Bydgoszcz', 'Poznan', 'Katowice'], 'Gdansk': ['Bydgoszcz', 'Wroclaw'], 'Warsaw': ['Bydgoszcz', 'Wroclaw', 'Poznan', 'Katowice', 'Krakow']})
+Processing demand: Gdansk to Warsaw
+Added path Szczecin to Warsaw
+defaultdict(<type 'list'>, {'Wroclaw': ['Gdansk', 'Poznan'], 'Krakow': ['Gdansk', 'Katowice', 'Szczecin'], 'Rzeszow': ['Gdansk', 'Bydgoszcz'], 'Szczecin': ['Gdansk', 'Katowice', 'Lodz'], 'Bydgoszcz': ['Gdansk', 'Poznan', 'Wroclaw'], 'Bialystok': ['Gdansk', 'Poznan'], 'Poznan': ['Gdansk'], 'Lodz': ['Gdansk', 'Poznan', 'Katowice', 'Bydgoszcz'], 'Katowice': ['Gdansk', 'Poznan'], 'Kolobrzeg': ['Gdansk', 'Poznan', 'Katowice'], 'Warsaw': ['Gdansk', 'Katowice']})
+Processing demand: Gdansk to Warsaw
+Added path Katowice to Warsaw
+defaultdict(<type 'list'>, {'Wroclaw': ['Gdansk', 'Poznan'], 'Krakow': ['Gdansk', 'Katowice', 'Szczecin'], 'Rzeszow': ['Gdansk', 'Bydgoszcz'], 'Szczecin': ['Gdansk', 'Katowice', 'Lodz'], 'Bydgoszcz': ['Gdansk', 'Poznan', 'Wroclaw'], 'Bialystok': ['Gdansk', 'Poznan'], 'Poznan': ['Gdansk'], 'Lodz': ['Gdansk', 'Poznan', 'Katowice', 'Bydgoszcz'], 'Katowice': ['Gdansk', 'Poznan'], 'Kolobrzeg': ['Gdansk', 'Poznan', 'Katowice'], 'Warsaw': ['Gdansk']})
+Processing demand: Katowice to Poznan
+Added path Bialystok to Poznan
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice', 'Kolobrzeg', 'Bialystok', 'Poznan'], 'Krakow': ['Katowice', 'Warsaw'], 'Szczecin': ['Katowice', 'Warsaw', 'Krakow'], 'Bydgoszcz': ['Katowice', 'Kolobrzeg', 'Bialystok', 'Poznan', 'Wroclaw'], 'Bialystok': ['Katowice'], 'Poznan': ['Katowice'], 'Lodz': ['Katowice', 'Krakow', 'Szczecin', 'Kolobrzeg'], 'Rzeszow': ['Katowice', 'Warsaw', 'Lodz', 'Bydgoszcz'], 'Kolobrzeg': ['Katowice'], 'Gdansk': ['Katowice', 'Warsaw', 'Poznan', 'Wroclaw'], 'Warsaw': ['Katowice']})
+Processing demand: Katowice to Poznan
+Added path Katowice to Poznan
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice', 'Kolobrzeg', 'Bialystok', 'Poznan'], 'Krakow': ['Katowice', 'Warsaw'], 'Szczecin': ['Katowice', 'Warsaw', 'Krakow'], 'Bydgoszcz': ['Katowice', 'Kolobrzeg', 'Bialystok', 'Poznan', 'Wroclaw'], 'Bialystok': ['Katowice'], 'Poznan': [], 'Lodz': ['Katowice', 'Krakow', 'Szczecin', 'Kolobrzeg'], 'Rzeszow': ['Katowice', 'Warsaw', 'Lodz', 'Bydgoszcz'], 'Kolobrzeg': ['Katowice'], 'Gdansk': ['Katowice', 'Warsaw', 'Poznan', 'Wroclaw'], 'Warsaw': ['Katowice']})
+Processing demand: Kolobrzeg to Bialystok
+Added path Poznan to Bialystok
+defaultdict(<type 'list'>, {'Wroclaw': ['Kolobrzeg', 'Poznan'], 'Krakow': ['Kolobrzeg', 'Lodz', 'Szczecin'], 'Rzeszow': ['Kolobrzeg', 'Lodz', 'Bydgoszcz'], 'Szczecin': ['Kolobrzeg', 'Lodz'], 'Bydgoszcz': ['Kolobrzeg', 'Poznan', 'Wroclaw'], 'Bialystok': ['Kolobrzeg'], 'Lodz': ['Kolobrzeg'], 'Katowice': ['Kolobrzeg'], 'Poznan': ['Kolobrzeg', 'Katowice'], 'Gdansk': ['Kolobrzeg', 'Lodz', 'Szczecin', 'Warsaw', 'Poznan', 'Wroclaw'], 'Warsaw': ['Kolobrzeg', 'Lodz', 'Szczecin']})
+Processing demand: Kolobrzeg to Bialystok
+Added path Kolobrzeg to Bialystok
+defaultdict(<type 'list'>, {'Wroclaw': ['Kolobrzeg', 'Poznan'], 'Krakow': ['Kolobrzeg', 'Lodz', 'Szczecin'], 'Rzeszow': ['Kolobrzeg', 'Lodz', 'Bydgoszcz'], 'Szczecin': ['Kolobrzeg', 'Lodz'], 'Bydgoszcz': ['Kolobrzeg', 'Poznan', 'Wroclaw'], 'Bialystok': [], 'Lodz': ['Kolobrzeg'], 'Katowice': ['Kolobrzeg'], 'Poznan': ['Kolobrzeg', 'Katowice'], 'Gdansk': ['Kolobrzeg', 'Lodz', 'Szczecin', 'Warsaw', 'Poznan', 'Wroclaw'], 'Warsaw': ['Kolobrzeg', 'Lodz', 'Szczecin']})
+Processing demand: Bydgoszcz to Wroclaw
+Added path Bydgoszcz to Wroclaw
+defaultdict(<type 'list'>, {'Wroclaw': [], 'Krakow': ['Bydgoszcz', 'Lodz', 'Szczecin'], 'Rzeszow': ['Bydgoszcz'], 'Szczecin': ['Bydgoszcz', 'Lodz'], 'Bialystok': ['Bydgoszcz', 'Wroclaw', 'Poznan'], 'Poznan': ['Bydgoszcz', 'Wroclaw'], 'Lodz': ['Bydgoszcz'], 'Katowice': ['Bydgoszcz', 'Lodz', 'Szczecin', 'Krakow', 'Poznan'], 'Kolobrzeg': ['Bydgoszcz', 'Lodz', 'Katowice'], 'Gdansk': ['Bydgoszcz', 'Wroclaw'], 'Warsaw': ['Bydgoszcz', 'Lodz', 'Szczecin']})
+Processing demand: Warsaw to Rzeszow
+Added path Bydgoszcz to Rzeszow
+defaultdict(<type 'list'>, {'Wroclaw': ['Warsaw', 'Katowice', 'Poznan'], 'Krakow': ['Warsaw'], 'Rzeszow': ['Warsaw', 'Lodz'], 'Szczecin': ['Warsaw', 'Krakow'], 'Bydgoszcz': ['Warsaw', 'Lodz', 'Poznan', 'Wroclaw'], 'Bialystok': ['Warsaw', 'Krakow', 'Katowice', 'Poznan'], 'Poznan': ['Warsaw', 'Katowice'], 'Lodz': ['Warsaw', 'Krakow', 'Szczecin'], 'Katowice': ['Warsaw', 'Krakow'], 'Kolobrzeg': ['Warsaw', 'Krakow', 'Lodz', 'Katowice'], 'Gdansk': ['Warsaw', 'Poznan', 'Wroclaw']})
+Processing demand: Warsaw to Rzeszow
+Added path Lodz to Rzeszow
+defaultdict(<type 'list'>, {'Wroclaw': ['Warsaw', 'Katowice', 'Poznan'], 'Krakow': ['Warsaw'], 'Rzeszow': ['Warsaw'], 'Szczecin': ['Warsaw', 'Krakow'], 'Bydgoszcz': ['Warsaw', 'Lodz', 'Poznan', 'Wroclaw'], 'Bialystok': ['Warsaw', 'Krakow', 'Katowice', 'Poznan'], 'Poznan': ['Warsaw', 'Katowice'], 'Lodz': ['Warsaw', 'Krakow', 'Szczecin'], 'Katowice': ['Warsaw', 'Krakow'], 'Kolobrzeg': ['Warsaw', 'Krakow', 'Lodz', 'Katowice'], 'Gdansk': ['Warsaw', 'Poznan', 'Wroclaw']})
+Processing demand: Warsaw to Rzeszow
+Added path Warsaw to Rzeszow
+defaultdict(<type 'list'>, {'Wroclaw': ['Warsaw', 'Katowice', 'Poznan'], 'Krakow': ['Warsaw'], 'Rzeszow': [], 'Szczecin': ['Warsaw', 'Krakow'], 'Bydgoszcz': ['Warsaw', 'Lodz', 'Poznan', 'Wroclaw'], 'Bialystok': ['Warsaw', 'Krakow', 'Katowice', 'Poznan'], 'Poznan': ['Warsaw', 'Katowice'], 'Lodz': ['Warsaw', 'Krakow', 'Szczecin'], 'Katowice': ['Warsaw', 'Krakow'], 'Kolobrzeg': ['Warsaw', 'Krakow', 'Lodz', 'Katowice'], 'Gdansk': ['Warsaw', 'Poznan', 'Wroclaw']})
+Processing demand: Szczecin to Gdansk
+Added path Rzeszow to Gdansk
+defaultdict(<type 'list'>, {'Wroclaw': ['Szczecin', 'Warsaw', 'Rzeszow', 'Poznan', 'Bydgoszcz'], 'Krakow': ['Szczecin'], 'Rzeszow': ['Szczecin', 'Warsaw'], 'Bydgoszcz': ['Szczecin', 'Warsaw', 'Rzeszow'], 'Bialystok': ['Szczecin', 'Warsaw', 'Krakow', 'Katowice', 'Poznan'], 'Poznan': ['Szczecin', 'Warsaw', 'Rzeszow', 'Katowice'], 'Lodz': ['Szczecin'], 'Katowice': ['Szczecin', 'Krakow'], 'Kolobrzeg': ['Szczecin', 'Krakow', 'Lodz', 'Katowice'], 'Gdansk': ['Szczecin', 'Warsaw'], 'Warsaw': ['Szczecin']})
+Processing demand: Szczecin to Gdansk
+Added path Szczecin to Gdansk
+defaultdict(<type 'list'>, {'Wroclaw': ['Szczecin', 'Warsaw', 'Rzeszow', 'Poznan', 'Bydgoszcz'], 'Krakow': ['Szczecin'], 'Rzeszow': ['Szczecin', 'Warsaw'], 'Bydgoszcz': ['Szczecin', 'Warsaw', 'Rzeszow'], 'Bialystok': ['Szczecin', 'Warsaw', 'Krakow', 'Katowice', 'Poznan'], 'Poznan': ['Szczecin', 'Warsaw', 'Rzeszow', 'Katowice'], 'Lodz': ['Szczecin'], 'Katowice': ['Szczecin', 'Krakow'], 'Kolobrzeg': ['Szczecin', 'Krakow', 'Lodz', 'Katowice'], 'Gdansk': [], 'Warsaw': ['Szczecin']})
+Processing demand: Lodz to Poznan
+Added path Warsaw to Poznan
+defaultdict(<type 'list'>, {'Wroclaw': ['Lodz', 'Warsaw', 'Gdansk', 'Poznan'], 'Krakow': ['Lodz', 'Szczecin'], 'Rzeszow': ['Lodz'], 'Szczecin': ['Lodz'], 'Bydgoszcz': ['Lodz', 'Gdansk', 'Rzeszow', 'Poznan', 'Wroclaw'], 'Bialystok': ['Lodz', 'Krakow', 'Gdansk', 'Poznan'], 'Poznan': ['Lodz', 'Szczecin'], 'Katowice': ['Lodz', 'Szczecin', 'Krakow', 'Poznan'], 'Kolobrzeg': ['Lodz', 'Katowice'], 'Gdansk': ['Lodz', 'Szczecin'], 'Warsaw': ['Lodz', 'Szczecin']})
+Processing demand: Lodz to Poznan
+Added path Lodz to Poznan
+defaultdict(<type 'list'>, {'Wroclaw': ['Lodz', 'Warsaw', 'Gdansk', 'Poznan'], 'Krakow': ['Lodz', 'Szczecin'], 'Rzeszow': ['Lodz'], 'Szczecin': ['Lodz'], 'Bydgoszcz': ['Lodz', 'Gdansk', 'Rzeszow', 'Poznan', 'Wroclaw'], 'Bialystok': ['Lodz', 'Krakow', 'Gdansk', 'Poznan'], 'Poznan': [], 'Katowice': ['Lodz', 'Szczecin', 'Krakow', 'Poznan'], 'Kolobrzeg': ['Lodz', 'Katowice'], 'Gdansk': ['Lodz', 'Szczecin'], 'Warsaw': ['Lodz', 'Szczecin']})
+Processing demand: Wroclaw to Bialystok
+Added path Wroclaw to Bialystok
+defaultdict(<type 'list'>, {'Krakow': ['Wroclaw', 'Poznan', 'Katowice', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Wroclaw', 'Warsaw'], 'Szczecin': ['Wroclaw', 'Poznan', 'Katowice', 'Warsaw', 'Lodz'], 'Bydgoszcz': ['Wroclaw'], 'Bialystok': [], 'Poznan': ['Wroclaw'], 'Lodz': ['Wroclaw', 'Katowice', 'Rzeszow', 'Bydgoszcz'], 'Katowice': ['Wroclaw', 'Poznan'], 'Kolobrzeg': ['Wroclaw', 'Poznan', 'Katowice'], 'Gdansk': ['Wroclaw', 'Rzeszow'], 'Warsaw': ['Wroclaw', 'Poznan', 'Katowice']})
+Processing demand: Poznan to Lodz
+Added path Szczecin to Lodz
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan'], 'Krakow': ['Poznan', 'Katowice', 'Warsaw'], 'Rzeszow': ['Poznan', 'Warsaw'], 'Szczecin': ['Poznan', 'Katowice', 'Warsaw', 'Krakow'], 'Bydgoszcz': ['Poznan', 'Wroclaw'], 'Bialystok': ['Poznan'], 'Lodz': ['Poznan', 'Katowice', 'Rzeszow', 'Krakow'], 'Katowice': ['Poznan'], 'Kolobrzeg': ['Poznan', 'Katowice'], 'Gdansk': ['Poznan', 'Rzeszow'], 'Warsaw': ['Poznan', 'Katowice']})
+Processing demand: Poznan to Lodz
+Added path Krakow to Lodz
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan'], 'Krakow': ['Poznan', 'Katowice', 'Warsaw'], 'Rzeszow': ['Poznan', 'Warsaw'], 'Szczecin': ['Poznan', 'Katowice', 'Warsaw', 'Krakow'], 'Bydgoszcz': ['Poznan', 'Wroclaw'], 'Bialystok': ['Poznan'], 'Lodz': ['Poznan', 'Katowice', 'Rzeszow'], 'Katowice': ['Poznan'], 'Kolobrzeg': ['Poznan', 'Katowice'], 'Gdansk': ['Poznan', 'Rzeszow'], 'Warsaw': ['Poznan', 'Katowice']})
+Processing demand: Poznan to Lodz
+Added path Rzeszow to Lodz
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan'], 'Krakow': ['Poznan', 'Katowice', 'Warsaw'], 'Rzeszow': ['Poznan', 'Warsaw'], 'Szczecin': ['Poznan', 'Katowice', 'Warsaw', 'Krakow'], 'Bydgoszcz': ['Poznan', 'Wroclaw'], 'Bialystok': ['Poznan'], 'Lodz': ['Poznan', 'Katowice'], 'Katowice': ['Poznan'], 'Kolobrzeg': ['Poznan', 'Katowice'], 'Gdansk': ['Poznan', 'Rzeszow'], 'Warsaw': ['Poznan', 'Katowice']})
+Processing demand: Poznan to Lodz
+Added path Poznan to Lodz
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan'], 'Krakow': ['Poznan', 'Katowice', 'Warsaw'], 'Rzeszow': ['Poznan', 'Warsaw'], 'Szczecin': ['Poznan', 'Katowice', 'Warsaw', 'Krakow'], 'Bydgoszcz': ['Poznan', 'Wroclaw'], 'Bialystok': ['Poznan'], 'Lodz': [], 'Katowice': ['Poznan'], 'Kolobrzeg': ['Poznan', 'Katowice'], 'Gdansk': ['Poznan', 'Rzeszow'], 'Warsaw': ['Poznan', 'Katowice']})
+Processing demand: Rzeszow to Kolobrzeg
+Added path Katowice to Kolobrzeg
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow', 'Gdansk', 'Poznan'], 'Krakow': ['Rzeszow', 'Lodz', 'Szczecin'], 'Szczecin': ['Rzeszow', 'Lodz'], 'Bydgoszcz': ['Rzeszow', 'Poznan', 'Wroclaw'], 'Bialystok': ['Rzeszow', 'Krakow', 'Gdansk', 'Poznan'], 'Poznan': ['Rzeszow', 'Lodz'], 'Lodz': ['Rzeszow'], 'Katowice': ['Rzeszow', 'Lodz', 'Szczecin', 'Krakow', 'Poznan'], 'Kolobrzeg': ['Rzeszow', 'Lodz'], 'Gdansk': ['Rzeszow'], 'Warsaw': ['Rzeszow', 'Lodz', 'Szczecin']})
+Processing demand: Rzeszow to Kolobrzeg
+Added path Lodz to Kolobrzeg
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow', 'Gdansk', 'Poznan'], 'Krakow': ['Rzeszow', 'Lodz', 'Szczecin'], 'Szczecin': ['Rzeszow', 'Lodz'], 'Bydgoszcz': ['Rzeszow', 'Poznan', 'Wroclaw'], 'Bialystok': ['Rzeszow', 'Krakow', 'Gdansk', 'Poznan'], 'Poznan': ['Rzeszow', 'Lodz'], 'Lodz': ['Rzeszow'], 'Katowice': ['Rzeszow', 'Lodz', 'Szczecin', 'Krakow', 'Poznan'], 'Kolobrzeg': ['Rzeszow'], 'Gdansk': ['Rzeszow'], 'Warsaw': ['Rzeszow', 'Lodz', 'Szczecin']})
+Processing demand: Rzeszow to Kolobrzeg
+Added path Rzeszow to Kolobrzeg
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow', 'Gdansk', 'Poznan'], 'Krakow': ['Rzeszow', 'Lodz', 'Szczecin'], 'Szczecin': ['Rzeszow', 'Lodz'], 'Bydgoszcz': ['Rzeszow', 'Poznan', 'Wroclaw'], 'Bialystok': ['Rzeszow', 'Krakow', 'Gdansk', 'Poznan'], 'Poznan': ['Rzeszow', 'Lodz'], 'Lodz': ['Rzeszow'], 'Katowice': ['Rzeszow', 'Lodz', 'Szczecin', 'Krakow', 'Poznan'], 'Kolobrzeg': [], 'Gdansk': ['Rzeszow'], 'Warsaw': ['Rzeszow', 'Lodz', 'Szczecin']})
+Processing demand: Bialystok to Wroclaw
+Added path Bialystok to Wroclaw
+defaultdict(<type 'list'>, {'Wroclaw': [], 'Krakow': ['Bialystok', 'Katowice', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Bialystok', 'Warsaw'], 'Szczecin': ['Bialystok', 'Katowice', 'Warsaw', 'Lodz'], 'Bydgoszcz': ['Bialystok', 'Rzeszow', 'Poznan', 'Wroclaw'], 'Poznan': ['Bialystok'], 'Lodz': ['Bialystok', 'Katowice', 'Rzeszow'], 'Katowice': ['Bialystok'], 'Kolobrzeg': ['Bialystok', 'Katowice'], 'Gdansk': ['Bialystok', 'Rzeszow'], 'Warsaw': ['Bialystok', 'Katowice']})
+Processing demand: Krakow to Bialystok
+Added path Krakow to Bialystok
+defaultdict(<type 'list'>, {'Wroclaw': ['Krakow', 'Lodz', 'Warsaw', 'Gdansk', 'Bialystok'], 'Rzeszow': ['Krakow', 'Lodz'], 'Szczecin': ['Krakow', 'Lodz'], 'Bydgoszcz': ['Krakow', 'Lodz', 'Gdansk', 'Rzeszow', 'Wroclaw'], 'Bialystok': [], 'Poznan': ['Krakow', 'Lodz'], 'Lodz': ['Krakow'], 'Katowice': ['Krakow', 'Kolobrzeg', 'Bialystok'], 'Kolobrzeg': ['Krakow', 'Lodz'], 'Gdansk': ['Krakow', 'Szczecin'], 'Warsaw': ['Krakow', 'Szczecin']})
+Processing demand: Szczecin to Katowice
+Added path Szczecin to Katowice
+defaultdict(<type 'list'>, {'Wroclaw': ['Szczecin', 'Warsaw', 'Bialystok'], 'Krakow': ['Szczecin'], 'Rzeszow': ['Szczecin', 'Warsaw'], 'Bydgoszcz': ['Szczecin', 'Warsaw', 'Bialystok', 'Wroclaw'], 'Bialystok': ['Szczecin', 'Warsaw', 'Krakow'], 'Poznan': ['Szczecin', 'Warsaw'], 'Lodz': ['Szczecin'], 'Katowice': [], 'Kolobrzeg': ['Szczecin', 'Krakow', 'Bialystok', 'Katowice'], 'Gdansk': ['Szczecin'], 'Warsaw': ['Szczecin']})
+Processing demand: Lodz to Gdansk
+Added path Lodz to Gdansk
+defaultdict(<type 'list'>, {'Wroclaw': ['Lodz', 'Warsaw', 'Katowice', 'Bialystok'], 'Krakow': ['Lodz', 'Szczecin'], 'Rzeszow': ['Lodz'], 'Szczecin': ['Lodz'], 'Bydgoszcz': ['Lodz', 'Bialystok', 'Wroclaw'], 'Bialystok': ['Lodz', 'Katowice', 'Krakow'], 'Poznan': ['Lodz'], 'Katowice': ['Lodz', 'Szczecin'], 'Kolobrzeg': ['Lodz'], 'Gdansk': [], 'Warsaw': ['Lodz', 'Szczecin']})
+Processing demand: Wroclaw to Gdansk
+Added path Wroclaw to Gdansk
+defaultdict(<type 'list'>, {'Krakow': ['Wroclaw', 'Bialystok', 'Katowice', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Wroclaw', 'Warsaw'], 'Szczecin': ['Wroclaw', 'Bialystok', 'Katowice', 'Warsaw', 'Lodz'], 'Bydgoszcz': ['Wroclaw'], 'Bialystok': ['Wroclaw'], 'Poznan': ['Wroclaw', 'Bialystok'], 'Lodz': ['Wroclaw', 'Bialystok', 'Katowice', 'Rzeszow'], 'Katowice': ['Wroclaw', 'Bialystok'], 'Kolobrzeg': ['Wroclaw', 'Bialystok', 'Katowice'], 'Gdansk': [], 'Warsaw': ['Wroclaw', 'Bialystok', 'Katowice']})
+Processing demand: Katowice to Bydgoszcz
+Added path Wroclaw to Bydgoszcz
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice', 'Rzeszow', 'Bialystok'], 'Krakow': ['Katowice', 'Warsaw', 'Szczecin'], 'Szczecin': ['Katowice', 'Warsaw', 'Lodz'], 'Bydgoszcz': ['Katowice', 'Rzeszow'], 'Bialystok': ['Katowice', 'Krakow'], 'Poznan': ['Katowice'], 'Lodz': ['Katowice', 'Rzeszow'], 'Rzeszow': ['Katowice', 'Warsaw'], 'Kolobrzeg': ['Katowice'], 'Gdansk': ['Katowice', 'Warsaw', 'Rzeszow'], 'Warsaw': ['Katowice']})
+Processing demand: Katowice to Bydgoszcz
+Added path Rzeszow to Bydgoszcz
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice', 'Rzeszow', 'Bialystok'], 'Krakow': ['Katowice', 'Warsaw', 'Szczecin'], 'Szczecin': ['Katowice', 'Warsaw', 'Lodz'], 'Bydgoszcz': ['Katowice'], 'Bialystok': ['Katowice', 'Krakow'], 'Poznan': ['Katowice'], 'Lodz': ['Katowice', 'Rzeszow'], 'Rzeszow': ['Katowice', 'Warsaw'], 'Kolobrzeg': ['Katowice'], 'Gdansk': ['Katowice', 'Warsaw', 'Rzeszow'], 'Warsaw': ['Katowice']})
+Processing demand: Katowice to Bydgoszcz
+Added path Katowice to Bydgoszcz
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice', 'Rzeszow', 'Bialystok'], 'Krakow': ['Katowice', 'Warsaw', 'Szczecin'], 'Szczecin': ['Katowice', 'Warsaw', 'Lodz'], 'Bydgoszcz': [], 'Bialystok': ['Katowice', 'Krakow'], 'Poznan': ['Katowice'], 'Lodz': ['Katowice', 'Rzeszow'], 'Rzeszow': ['Katowice', 'Warsaw'], 'Kolobrzeg': ['Katowice'], 'Gdansk': ['Katowice', 'Warsaw', 'Rzeszow'], 'Warsaw': ['Katowice']})
+Processing demand: Kolobrzeg to Wroclaw
+Added path Kolobrzeg to Wroclaw
+defaultdict(<type 'list'>, {'Wroclaw': [], 'Krakow': ['Kolobrzeg', 'Katowice', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Kolobrzeg', 'Warsaw'], 'Szczecin': ['Kolobrzeg', 'Katowice', 'Warsaw', 'Lodz'], 'Bydgoszcz': ['Kolobrzeg', 'Bialystok', 'Katowice'], 'Bialystok': ['Kolobrzeg'], 'Lodz': ['Kolobrzeg'], 'Katowice': ['Kolobrzeg', 'Bialystok'], 'Poznan': ['Kolobrzeg', 'Bialystok'], 'Gdansk': ['Kolobrzeg', 'Bialystok', 'Wroclaw'], 'Warsaw': ['Kolobrzeg', 'Katowice']})
+Processing demand: Katowice to Wroclaw
+Added path Rzeszow to Wroclaw
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice'], 'Krakow': ['Katowice', 'Warsaw', 'Szczecin'], 'Szczecin': ['Katowice', 'Warsaw', 'Lodz'], 'Bydgoszcz': ['Katowice'], 'Bialystok': ['Katowice', 'Krakow'], 'Poznan': ['Katowice'], 'Lodz': ['Katowice', 'Rzeszow'], 'Rzeszow': ['Katowice', 'Warsaw'], 'Kolobrzeg': ['Katowice'], 'Gdansk': ['Katowice', 'Warsaw', 'Rzeszow'], 'Warsaw': ['Katowice']})
+Processing demand: Rzeszow to Szczecin
+Added path Warsaw to Szczecin
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow'], 'Krakow': ['Rzeszow', 'Bialystok', 'Katowice', 'Warsaw', 'Szczecin'], 'Szczecin': ['Rzeszow', 'Katowice'], 'Bydgoszcz': ['Rzeszow'], 'Bialystok': ['Rzeszow', 'Wroclaw'], 'Poznan': ['Rzeszow', 'Wroclaw', 'Bialystok'], 'Lodz': ['Rzeszow'], 'Katowice': ['Rzeszow', 'Wroclaw', 'Bialystok'], 'Kolobrzeg': ['Rzeszow'], 'Gdansk': ['Rzeszow'], 'Warsaw': ['Rzeszow', 'Katowice']})
+Processing demand: Rzeszow to Szczecin
+Added path Katowice to Szczecin
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow'], 'Krakow': ['Rzeszow', 'Bialystok', 'Katowice', 'Warsaw', 'Szczecin'], 'Szczecin': ['Rzeszow'], 'Bydgoszcz': ['Rzeszow'], 'Bialystok': ['Rzeszow', 'Wroclaw'], 'Poznan': ['Rzeszow', 'Wroclaw', 'Bialystok'], 'Lodz': ['Rzeszow'], 'Katowice': ['Rzeszow', 'Wroclaw', 'Bialystok'], 'Kolobrzeg': ['Rzeszow'], 'Gdansk': ['Rzeszow'], 'Warsaw': ['Rzeszow', 'Katowice']})
+Processing demand: Rzeszow to Szczecin
+Added path Rzeszow to Szczecin
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow'], 'Krakow': ['Rzeszow', 'Bialystok', 'Katowice', 'Warsaw', 'Szczecin'], 'Szczecin': [], 'Bydgoszcz': ['Rzeszow'], 'Bialystok': ['Rzeszow', 'Wroclaw'], 'Poznan': ['Rzeszow', 'Wroclaw', 'Bialystok'], 'Lodz': ['Rzeszow'], 'Katowice': ['Rzeszow', 'Wroclaw', 'Bialystok'], 'Kolobrzeg': ['Rzeszow'], 'Gdansk': ['Rzeszow'], 'Warsaw': ['Rzeszow', 'Katowice']})
+Processing demand: Bialystok to Bydgoszcz
+Added path Bialystok to Bydgoszcz
+defaultdict(<type 'list'>, {'Wroclaw': ['Bialystok'], 'Krakow': ['Bialystok', 'Katowice', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Bialystok', 'Warsaw'], 'Szczecin': ['Bialystok', 'Katowice'], 'Bydgoszcz': [], 'Poznan': ['Bialystok'], 'Lodz': ['Bialystok', 'Katowice', 'Szczecin'], 'Katowice': ['Bialystok'], 'Kolobrzeg': ['Bialystok', 'Katowice'], 'Gdansk': ['Bialystok', 'Wroclaw'], 'Warsaw': ['Bialystok', 'Katowice']})
+Processing demand: Warsaw to Katowice
+Added path Warsaw to Katowice
+defaultdict(<type 'list'>, {'Wroclaw': ['Warsaw', 'Katowice', 'Bialystok'], 'Krakow': ['Warsaw', 'Szczecin'], 'Rzeszow': ['Warsaw'], 'Szczecin': ['Warsaw'], 'Bydgoszcz': ['Warsaw', 'Katowice'], 'Bialystok': ['Warsaw', 'Katowice', 'Krakow'], 'Poznan': ['Warsaw'], 'Lodz': ['Warsaw', 'Szczecin'], 'Katowice': [], 'Kolobrzeg': ['Warsaw', 'Szczecin', 'Katowice'], 'Gdansk': ['Warsaw', 'Szczecin']})
+Processing demand: Poznan to Kolobrzeg
+Added path Poznan to Kolobrzeg
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan', 'Bialystok'], 'Krakow': ['Poznan', 'Katowice', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Poznan', 'Warsaw'], 'Szczecin': ['Poznan', 'Katowice'], 'Bydgoszcz': ['Poznan', 'Katowice'], 'Bialystok': ['Poznan'], 'Lodz': ['Poznan'], 'Katowice': ['Poznan'], 'Kolobrzeg': [], 'Gdansk': ['Poznan', 'Wroclaw'], 'Warsaw': ['Poznan', 'Katowice']})
+Processing demand: Wroclaw to Warsaw
+Added path Wroclaw to Warsaw
+defaultdict(<type 'list'>, {'Krakow': ['Wroclaw', 'Bialystok', 'Katowice', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Wroclaw', 'Warsaw'], 'Szczecin': ['Wroclaw', 'Bialystok', 'Katowice'], 'Bydgoszcz': ['Wroclaw'], 'Bialystok': ['Wroclaw'], 'Poznan': ['Wroclaw', 'Bialystok'], 'Lodz': ['Wroclaw', 'Bialystok', 'Katowice', 'Szczecin'], 'Katowice': ['Wroclaw', 'Bialystok'], 'Kolobrzeg': ['Wroclaw', 'Bialystok', 'Katowice'], 'Gdansk': ['Wroclaw'], 'Warsaw': []})
+Processing demand: Bydgoszcz to Bialystok
+Added path Bydgoszcz to Bialystok
+defaultdict(<type 'list'>, {'Wroclaw': ['Bydgoszcz'], 'Krakow': ['Bydgoszcz', 'Wroclaw', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Bydgoszcz'], 'Szczecin': ['Bydgoszcz', 'Wroclaw', 'Warsaw'], 'Bialystok': [], 'Poznan': ['Bydgoszcz', 'Wroclaw', 'Warsaw'], 'Lodz': ['Bydgoszcz'], 'Katowice': ['Bydgoszcz', 'Wroclaw', 'Warsaw'], 'Kolobrzeg': ['Bydgoszcz', 'Katowice'], 'Gdansk': ['Bydgoszcz', 'Wroclaw'], 'Warsaw': ['Bydgoszcz', 'Wroclaw']})
+Processing demand: Gdansk to Wroclaw
+Added path Gdansk to Wroclaw
+defaultdict(<type 'list'>, {'Wroclaw': [], 'Krakow': ['Gdansk', 'Katowice', 'Warsaw', 'Szczecin'], 'Rzeszow': ['Gdansk', 'Warsaw'], 'Szczecin': ['Gdansk', 'Katowice'], 'Bydgoszcz': ['Gdansk', 'Poznan', 'Katowice'], 'Bialystok': ['Gdansk', 'Poznan'], 'Poznan': ['Gdansk'], 'Lodz': ['Gdansk', 'Poznan'], 'Katowice': ['Gdansk', 'Poznan'], 'Kolobrzeg': ['Gdansk', 'Poznan'], 'Warsaw': ['Gdansk', 'Katowice']})
+Processing demand: Krakow to Bydgoszcz
+Added path Krakow to Bydgoszcz
+defaultdict(<type 'list'>, {'Wroclaw': ['Krakow', 'Bialystok'], 'Rzeszow': ['Krakow', 'Warsaw'], 'Szczecin': ['Krakow', 'Katowice'], 'Bydgoszcz': [], 'Bialystok': ['Krakow'], 'Poznan': ['Krakow', 'Bialystok'], 'Lodz': ['Krakow'], 'Katowice': ['Krakow', 'Bialystok'], 'Kolobrzeg': ['Krakow', 'Bialystok', 'Katowice'], 'Gdansk': ['Krakow', 'Bialystok', 'Wroclaw'], 'Warsaw': ['Krakow', 'Katowice']})
+Processing demand: Lodz to Krakow
+Added path Lodz to Krakow
+defaultdict(<type 'list'>, {'Wroclaw': ['Lodz', 'Warsaw', 'Katowice', 'Bialystok'], 'Krakow': [], 'Rzeszow': ['Lodz'], 'Szczecin': ['Lodz'], 'Bydgoszcz': ['Lodz', 'Katowice'], 'Bialystok': ['Lodz', 'Katowice', 'Krakow'], 'Poznan': ['Lodz'], 'Katowice': ['Lodz', 'Szczecin'], 'Kolobrzeg': ['Lodz'], 'Gdansk': ['Lodz'], 'Warsaw': ['Lodz', 'Szczecin']})
+Processing demand: Bialystok to Krakow
+Added path Bialystok to Krakow
+defaultdict(<type 'list'>, {'Wroclaw': ['Bialystok'], 'Krakow': [], 'Rzeszow': ['Bialystok', 'Warsaw'], 'Szczecin': ['Bialystok', 'Katowice'], 'Bydgoszcz': ['Bialystok'], 'Poznan': ['Bialystok'], 'Lodz': ['Bialystok', 'Katowice', 'Szczecin'], 'Katowice': ['Bialystok'], 'Kolobrzeg': ['Bialystok', 'Katowice'], 'Gdansk': ['Bialystok', 'Wroclaw'], 'Warsaw': ['Bialystok', 'Katowice']})
+Processing demand: Wroclaw to Krakow
+Added path Wroclaw to Krakow
+defaultdict(<type 'list'>, {'Krakow': [], 'Rzeszow': ['Wroclaw', 'Warsaw'], 'Szczecin': ['Wroclaw', 'Warsaw'], 'Bydgoszcz': ['Wroclaw'], 'Bialystok': ['Wroclaw'], 'Poznan': ['Wroclaw', 'Warsaw'], 'Lodz': ['Wroclaw', 'Warsaw', 'Katowice', 'Krakow'], 'Katowice': ['Wroclaw', 'Warsaw'], 'Kolobrzeg': ['Wroclaw', 'Katowice'], 'Gdansk': ['Wroclaw'], 'Warsaw': ['Wroclaw']})
+Processing demand: Wroclaw to Szczecin
+Added path Wroclaw to Szczecin
+defaultdict(<type 'list'>, {'Krakow': ['Wroclaw'], 'Rzeszow': ['Wroclaw', 'Warsaw'], 'Szczecin': [], 'Bydgoszcz': ['Wroclaw'], 'Bialystok': ['Wroclaw'], 'Poznan': ['Wroclaw', 'Warsaw'], 'Lodz': ['Wroclaw', 'Warsaw', 'Katowice', 'Krakow'], 'Katowice': ['Wroclaw', 'Warsaw'], 'Kolobrzeg': ['Wroclaw', 'Katowice'], 'Gdansk': ['Wroclaw'], 'Warsaw': ['Wroclaw']})
+Processing demand: Bydgoszcz to Gdansk
+Added path Bydgoszcz to Gdansk
+defaultdict(<type 'list'>, {'Wroclaw': ['Bydgoszcz'], 'Krakow': ['Bydgoszcz', 'Wroclaw'], 'Rzeszow': ['Bydgoszcz'], 'Szczecin': ['Bydgoszcz', 'Wroclaw'], 'Bialystok': ['Bydgoszcz'], 'Poznan': ['Bydgoszcz', 'Wroclaw', 'Warsaw'], 'Lodz': ['Bydgoszcz'], 'Katowice': ['Bydgoszcz', 'Wroclaw', 'Warsaw'], 'Kolobrzeg': ['Bydgoszcz', 'Katowice'], 'Gdansk': [], 'Warsaw': ['Bydgoszcz', 'Wroclaw']})
+Processing demand: Gdansk to Rzeszow
+Added path Gdansk to Rzeszow
+defaultdict(<type 'list'>, {'Wroclaw': ['Gdansk'], 'Krakow': ['Gdansk', 'Wroclaw'], 'Rzeszow': [], 'Szczecin': ['Gdansk', 'Wroclaw'], 'Bydgoszcz': ['Gdansk', 'Wroclaw'], 'Bialystok': ['Gdansk', 'Wroclaw'], 'Poznan': ['Gdansk'], 'Lodz': ['Gdansk', 'Wroclaw', 'Warsaw', 'Katowice', 'Krakow'], 'Katowice': ['Gdansk', 'Wroclaw', 'Warsaw'], 'Kolobrzeg': ['Gdansk', 'Wroclaw', 'Katowice'], 'Warsaw': ['Gdansk', 'Wroclaw']})
+Processing demand: Krakow to Wroclaw
+Added path Krakow to Wroclaw
+defaultdict(<type 'list'>, {'Wroclaw': [], 'Rzeszow': ['Krakow', 'Warsaw'], 'Szczecin': ['Krakow', 'Katowice'], 'Bydgoszcz': ['Krakow'], 'Bialystok': ['Krakow'], 'Poznan': ['Krakow', 'Bialystok'], 'Lodz': ['Krakow'], 'Katowice': ['Krakow', 'Bialystok'], 'Kolobrzeg': ['Krakow', 'Bialystok', 'Katowice'], 'Gdansk': ['Krakow', 'Bialystok', 'Wroclaw'], 'Warsaw': ['Krakow', 'Katowice']})
+Processing demand: Katowice to Bialystok
+Added path Katowice to Bialystok
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice', 'Krakow'], 'Krakow': ['Katowice', 'Warsaw', 'Szczecin'], 'Szczecin': ['Katowice'], 'Bydgoszcz': ['Katowice'], 'Bialystok': [], 'Poznan': ['Katowice'], 'Lodz': ['Katowice', 'Szczecin'], 'Rzeszow': ['Katowice', 'Warsaw'], 'Kolobrzeg': ['Katowice'], 'Gdansk': ['Katowice', 'Warsaw', 'Szczecin'], 'Warsaw': ['Katowice']})
+Processing demand: Kolobrzeg to Poznan
+Added path Kolobrzeg to Poznan
+defaultdict(<type 'list'>, {'Wroclaw': ['Kolobrzeg'], 'Krakow': ['Kolobrzeg', 'Wroclaw'], 'Rzeszow': ['Kolobrzeg', 'Wroclaw', 'Warsaw'], 'Szczecin': ['Kolobrzeg', 'Wroclaw'], 'Bydgoszcz': ['Kolobrzeg', 'Wroclaw'], 'Bialystok': ['Kolobrzeg'], 'Lodz': ['Kolobrzeg'], 'Katowice': ['Kolobrzeg', 'Warsaw'], 'Poznan': [], 'Gdansk': ['Kolobrzeg', 'Wroclaw'], 'Warsaw': ['Kolobrzeg', 'Wroclaw']})
+Processing demand: Rzeszow to Katowice
+Added path Rzeszow to Katowice
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow'], 'Krakow': ['Rzeszow', 'Wroclaw'], 'Szczecin': ['Rzeszow'], 'Bydgoszcz': ['Rzeszow'], 'Bialystok': ['Rzeszow', 'Wroclaw'], 'Poznan': ['Rzeszow', 'Wroclaw', 'Warsaw'], 'Lodz': ['Rzeszow'], 'Katowice': [], 'Kolobrzeg': ['Rzeszow'], 'Gdansk': ['Rzeszow'], 'Warsaw': ['Rzeszow', 'Wroclaw']})
+Processing demand: Lodz to Bydgoszcz
+Added path Lodz to Bydgoszcz
+defaultdict(<type 'list'>, {'Wroclaw': ['Lodz', 'Krakow'], 'Krakow': ['Lodz'], 'Rzeszow': ['Lodz'], 'Szczecin': ['Lodz'], 'Bydgoszcz': [], 'Bialystok': ['Lodz', 'Krakow'], 'Poznan': ['Lodz'], 'Katowice': ['Lodz', 'Krakow', 'Warsaw'], 'Kolobrzeg': ['Lodz'], 'Gdansk': ['Lodz'], 'Warsaw': ['Lodz', 'Krakow', 'Wroclaw']})
+Processing demand: Poznan to Krakow
+Added path Poznan to Krakow
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan', 'Bialystok'], 'Krakow': [], 'Rzeszow': ['Poznan', 'Warsaw'], 'Szczecin': ['Poznan', 'Katowice'], 'Bydgoszcz': ['Poznan', 'Katowice'], 'Bialystok': ['Poznan'], 'Lodz': ['Poznan'], 'Katowice': ['Poznan'], 'Kolobrzeg': ['Poznan'], 'Gdansk': ['Poznan', 'Wroclaw'], 'Warsaw': ['Poznan', 'Katowice']})
+Processing demand: Bydgoszcz to Katowice
+Added path Bydgoszcz to Katowice
+defaultdict(<type 'list'>, {'Wroclaw': ['Bydgoszcz'], 'Krakow': ['Bydgoszcz', 'Wroclaw'], 'Rzeszow': ['Bydgoszcz'], 'Szczecin': ['Bydgoszcz', 'Wroclaw'], 'Bialystok': ['Bydgoszcz'], 'Poznan': ['Bydgoszcz', 'Wroclaw', 'Warsaw'], 'Lodz': ['Bydgoszcz'], 'Katowice': [], 'Kolobrzeg': ['Bydgoszcz', 'Katowice'], 'Gdansk': ['Bydgoszcz'], 'Warsaw': ['Bydgoszcz', 'Wroclaw']})
+Processing demand: Katowice to Gdansk
+Added path Katowice to Gdansk
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice', 'Bialystok'], 'Krakow': ['Katowice', 'Warsaw', 'Bialystok'], 'Szczecin': ['Katowice'], 'Bydgoszcz': ['Katowice'], 'Bialystok': ['Katowice'], 'Poznan': ['Katowice'], 'Lodz': ['Katowice', 'Krakow'], 'Rzeszow': ['Katowice', 'Warsaw'], 'Kolobrzeg': ['Katowice'], 'Gdansk': [], 'Warsaw': ['Katowice']})
+Processing demand: Kolobrzeg to Rzeszow
+Added path Wroclaw to Rzeszow
+defaultdict(<type 'list'>, {'Wroclaw': ['Kolobrzeg'], 'Krakow': ['Kolobrzeg', 'Wroclaw'], 'Rzeszow': ['Kolobrzeg'], 'Szczecin': ['Kolobrzeg', 'Wroclaw'], 'Bydgoszcz': ['Kolobrzeg', 'Wroclaw'], 'Bialystok': ['Kolobrzeg'], 'Lodz': ['Kolobrzeg'], 'Katowice': ['Kolobrzeg', 'Warsaw'], 'Poznan': ['Kolobrzeg'], 'Gdansk': ['Kolobrzeg', 'Wroclaw'], 'Warsaw': ['Kolobrzeg', 'Wroclaw']})
+Processing demand: Kolobrzeg to Rzeszow
+Added path Kolobrzeg to Rzeszow
+defaultdict(<type 'list'>, {'Wroclaw': ['Kolobrzeg'], 'Krakow': ['Kolobrzeg', 'Wroclaw'], 'Rzeszow': [], 'Szczecin': ['Kolobrzeg', 'Wroclaw'], 'Bydgoszcz': ['Kolobrzeg', 'Wroclaw'], 'Bialystok': ['Kolobrzeg'], 'Lodz': ['Kolobrzeg'], 'Katowice': ['Kolobrzeg', 'Warsaw'], 'Poznan': ['Kolobrzeg'], 'Gdansk': ['Kolobrzeg', 'Wroclaw'], 'Warsaw': ['Kolobrzeg', 'Wroclaw']})
+Processing demand: Szczecin to Rzeszow
+Added path Szczecin to Rzeszow
+defaultdict(<type 'list'>, {'Wroclaw': ['Szczecin', 'Warsaw', 'Katowice', 'Krakow'], 'Krakow': ['Szczecin'], 'Rzeszow': [], 'Bydgoszcz': ['Szczecin', 'Warsaw', 'Katowice'], 'Bialystok': ['Szczecin', 'Warsaw', 'Katowice'], 'Poznan': ['Szczecin', 'Warsaw'], 'Lodz': ['Szczecin'], 'Katowice': ['Szczecin'], 'Kolobrzeg': ['Szczecin', 'Katowice'], 'Gdansk': ['Szczecin'], 'Warsaw': ['Szczecin']})
+Processing demand: Rzeszow to Warsaw
+Added path Rzeszow to Warsaw
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow'], 'Krakow': ['Rzeszow', 'Katowice', 'Warsaw', 'Wroclaw'], 'Szczecin': ['Rzeszow'], 'Bydgoszcz': ['Rzeszow'], 'Bialystok': ['Rzeszow', 'Katowice'], 'Poznan': ['Rzeszow', 'Katowice'], 'Lodz': ['Rzeszow'], 'Katowice': ['Rzeszow'], 'Kolobrzeg': ['Rzeszow'], 'Gdansk': ['Rzeszow'], 'Warsaw': []})
+Processing demand: Szczecin to Wroclaw
+Added path Warsaw to Wroclaw
+defaultdict(<type 'list'>, {'Wroclaw': ['Szczecin'], 'Krakow': ['Szczecin'], 'Rzeszow': ['Szczecin'], 'Bydgoszcz': ['Szczecin', 'Warsaw', 'Katowice'], 'Bialystok': ['Szczecin', 'Warsaw', 'Katowice'], 'Poznan': ['Szczecin', 'Warsaw'], 'Lodz': ['Szczecin'], 'Katowice': ['Szczecin'], 'Kolobrzeg': ['Szczecin', 'Katowice'], 'Gdansk': ['Szczecin'], 'Warsaw': ['Szczecin']})
+Processing demand: Szczecin to Wroclaw
+Added path Szczecin to Wroclaw
+defaultdict(<type 'list'>, {'Wroclaw': [], 'Krakow': ['Szczecin'], 'Rzeszow': ['Szczecin'], 'Bydgoszcz': ['Szczecin', 'Warsaw', 'Katowice'], 'Bialystok': ['Szczecin', 'Warsaw', 'Katowice'], 'Poznan': ['Szczecin', 'Warsaw'], 'Lodz': ['Szczecin'], 'Katowice': ['Szczecin'], 'Kolobrzeg': ['Szczecin', 'Katowice'], 'Gdansk': ['Szczecin'], 'Warsaw': ['Szczecin']})
+Processing demand: Bydgoszcz to Krakow
+Added path Bydgoszcz to Krakow
+defaultdict(<type 'list'>, {'Wroclaw': ['Bydgoszcz'], 'Krakow': [], 'Rzeszow': ['Bydgoszcz'], 'Szczecin': ['Bydgoszcz', 'Katowice'], 'Bialystok': ['Bydgoszcz'], 'Poznan': ['Bydgoszcz', 'Katowice'], 'Lodz': ['Bydgoszcz'], 'Katowice': ['Bydgoszcz'], 'Kolobrzeg': ['Bydgoszcz', 'Katowice'], 'Gdansk': ['Bydgoszcz'], 'Warsaw': ['Bydgoszcz', 'Katowice']})
+Processing demand: Bydgoszcz to Szczecin
+Added path Bydgoszcz to Szczecin
+defaultdict(<type 'list'>, {'Wroclaw': ['Bydgoszcz'], 'Krakow': ['Bydgoszcz'], 'Rzeszow': ['Bydgoszcz'], 'Szczecin': [], 'Bialystok': ['Bydgoszcz'], 'Poznan': ['Bydgoszcz', 'Katowice'], 'Lodz': ['Bydgoszcz'], 'Katowice': ['Bydgoszcz'], 'Kolobrzeg': ['Bydgoszcz', 'Katowice'], 'Gdansk': ['Bydgoszcz'], 'Warsaw': ['Bydgoszcz', 'Katowice']})
+Processing demand: Rzeszow to Poznan
+Added path Rzeszow to Poznan
+defaultdict(<type 'list'>, {'Wroclaw': ['Rzeszow'], 'Krakow': ['Rzeszow', 'Warsaw', 'Wroclaw'], 'Szczecin': ['Rzeszow'], 'Bydgoszcz': ['Rzeszow'], 'Bialystok': ['Rzeszow', 'Katowice'], 'Poznan': [], 'Lodz': ['Rzeszow'], 'Katowice': ['Rzeszow'], 'Kolobrzeg': ['Rzeszow'], 'Gdansk': ['Rzeszow'], 'Warsaw': ['Rzeszow']})
+Processing demand: Krakow to Kolobrzeg
+Added path Wroclaw to Kolobrzeg
+defaultdict(<type 'list'>, {'Wroclaw': ['Krakow'], 'Rzeszow': ['Krakow', 'Wroclaw'], 'Szczecin': ['Krakow', 'Wroclaw'], 'Bydgoszcz': ['Krakow'], 'Bialystok': ['Krakow'], 'Poznan': ['Krakow', 'Wroclaw', 'Warsaw'], 'Lodz': ['Krakow'], 'Katowice': ['Krakow', 'Warsaw'], 'Kolobrzeg': ['Krakow'], 'Gdansk': ['Krakow', 'Wroclaw'], 'Warsaw': ['Krakow', 'Wroclaw']})
+Processing demand: Krakow to Kolobrzeg
+Added path Krakow to Kolobrzeg
+defaultdict(<type 'list'>, {'Wroclaw': ['Krakow'], 'Rzeszow': ['Krakow', 'Wroclaw'], 'Szczecin': ['Krakow', 'Wroclaw'], 'Bydgoszcz': ['Krakow'], 'Bialystok': ['Krakow'], 'Poznan': ['Krakow', 'Wroclaw', 'Warsaw'], 'Lodz': ['Krakow'], 'Katowice': ['Krakow', 'Warsaw'], 'Kolobrzeg': [], 'Gdansk': ['Krakow', 'Wroclaw'], 'Warsaw': ['Krakow', 'Wroclaw']})
+Processing demand: Lodz to Bialystok
+Added path Lodz to Bialystok
+defaultdict(<type 'list'>, {'Wroclaw': ['Lodz', 'Krakow'], 'Krakow': ['Lodz'], 'Rzeszow': ['Lodz'], 'Szczecin': ['Lodz'], 'Bydgoszcz': ['Lodz'], 'Bialystok': [], 'Poznan': ['Lodz'], 'Katowice': ['Lodz', 'Krakow', 'Warsaw'], 'Kolobrzeg': ['Lodz'], 'Gdansk': ['Lodz'], 'Warsaw': ['Lodz', 'Krakow', 'Wroclaw']})
+Processing demand: Poznan to Gdansk
+Added path Poznan to Gdansk
+defaultdict(<type 'list'>, {'Wroclaw': ['Poznan', 'Warsaw'], 'Krakow': ['Poznan'], 'Rzeszow': ['Poznan', 'Warsaw'], 'Szczecin': ['Poznan', 'Katowice'], 'Bydgoszcz': ['Poznan', 'Katowice'], 'Bialystok': ['Poznan'], 'Lodz': ['Poznan'], 'Katowice': ['Poznan'], 'Kolobrzeg': ['Poznan'], 'Gdansk': [], 'Warsaw': ['Poznan', 'Katowice']})
+Processing demand: Gdansk to Lodz
+Added path Gdansk to Lodz
+defaultdict(<type 'list'>, {'Wroclaw': ['Gdansk'], 'Krakow': ['Gdansk', 'Wroclaw'], 'Rzeszow': ['Gdansk'], 'Szczecin': ['Gdansk', 'Wroclaw'], 'Bydgoszcz': ['Gdansk', 'Wroclaw'], 'Bialystok': ['Gdansk', 'Wroclaw'], 'Poznan': ['Gdansk'], 'Lodz': [], 'Katowice': ['Gdansk', 'Wroclaw', 'Warsaw'], 'Kolobrzeg': ['Gdansk', 'Wroclaw'], 'Warsaw': ['Gdansk', 'Wroclaw']})
+Processing demand: Gdansk to Szczecin
+Added path Gdansk to Szczecin
+defaultdict(<type 'list'>, {'Wroclaw': ['Gdansk'], 'Krakow': ['Gdansk', 'Wroclaw'], 'Rzeszow': ['Gdansk'], 'Szczecin': [], 'Bydgoszcz': ['Gdansk', 'Wroclaw'], 'Bialystok': ['Gdansk', 'Wroclaw'], 'Poznan': ['Gdansk'], 'Lodz': ['Gdansk'], 'Katowice': ['Gdansk', 'Wroclaw', 'Warsaw'], 'Kolobrzeg': ['Gdansk', 'Wroclaw'], 'Warsaw': ['Gdansk', 'Wroclaw']})
+Processing demand: Kolobrzeg to Krakow
+Added path Kolobrzeg to Krakow
+defaultdict(<type 'list'>, {'Wroclaw': ['Kolobrzeg'], 'Krakow': [], 'Rzeszow': ['Kolobrzeg'], 'Szczecin': ['Kolobrzeg', 'Wroclaw'], 'Bydgoszcz': ['Kolobrzeg', 'Wroclaw'], 'Bialystok': ['Kolobrzeg'], 'Lodz': ['Kolobrzeg'], 'Katowice': ['Kolobrzeg', 'Warsaw'], 'Poznan': ['Kolobrzeg'], 'Gdansk': ['Kolobrzeg', 'Wroclaw'], 'Warsaw': ['Kolobrzeg', 'Wroclaw']})
+Processing demand: Bialystok to Szczecin
+Added path Bialystok to Szczecin
+defaultdict(<type 'list'>, {'Wroclaw': ['Bialystok'], 'Krakow': ['Bialystok'], 'Rzeszow': ['Bialystok', 'Warsaw'], 'Szczecin': [], 'Bydgoszcz': ['Bialystok'], 'Poznan': ['Bialystok'], 'Lodz': ['Bialystok', 'Katowice', 'Krakow'], 'Katowice': ['Bialystok'], 'Kolobrzeg': ['Bialystok', 'Katowice'], 'Gdansk': ['Bialystok', 'Katowice'], 'Warsaw': ['Bialystok', 'Katowice']})
+Processing demand: Krakow to Poznan
+Added path Krakow to Poznan
+defaultdict(<type 'list'>, {'Wroclaw': ['Krakow'], 'Rzeszow': ['Krakow', 'Wroclaw'], 'Szczecin': ['Krakow', 'Wroclaw'], 'Bydgoszcz': ['Krakow'], 'Bialystok': ['Krakow'], 'Poznan': [], 'Lodz': ['Krakow'], 'Katowice': ['Krakow', 'Warsaw'], 'Kolobrzeg': ['Krakow'], 'Gdansk': ['Krakow', 'Wroclaw'], 'Warsaw': ['Krakow', 'Wroclaw']})
+Processing demand: Szczecin to Bydgoszcz
+Added path Szczecin to Bydgoszcz
+defaultdict(<type 'list'>, {'Wroclaw': ['Szczecin'], 'Krakow': ['Szczecin'], 'Rzeszow': ['Szczecin'], 'Bydgoszcz': [], 'Bialystok': ['Szczecin', 'Warsaw', 'Katowice'], 'Poznan': ['Szczecin', 'Warsaw'], 'Lodz': ['Szczecin'], 'Katowice': ['Szczecin'], 'Kolobrzeg': ['Szczecin', 'Katowice'], 'Gdansk': ['Szczecin'], 'Warsaw': ['Szczecin']})
+Processing demand: Bialystok to Lodz
+Added path Bialystok to Lodz
+defaultdict(<type 'list'>, {'Wroclaw': ['Bialystok'], 'Krakow': ['Bialystok'], 'Rzeszow': ['Bialystok', 'Warsaw'], 'Szczecin': ['Bialystok'], 'Bydgoszcz': ['Bialystok'], 'Poznan': ['Bialystok'], 'Lodz': [], 'Katowice': ['Bialystok'], 'Kolobrzeg': ['Bialystok', 'Katowice'], 'Gdansk': ['Bialystok', 'Katowice'], 'Warsaw': ['Bialystok', 'Katowice']})
+Processing demand: Gdansk to Katowice
+Added path Gdansk to Katowice
+defaultdict(<type 'list'>, {'Wroclaw': ['Gdansk'], 'Krakow': ['Gdansk', 'Wroclaw'], 'Rzeszow': ['Gdansk'], 'Szczecin': ['Gdansk'], 'Bydgoszcz': ['Gdansk', 'Wroclaw'], 'Bialystok': ['Gdansk', 'Wroclaw'], 'Poznan': ['Gdansk'], 'Lodz': ['Gdansk'], 'Katowice': [], 'Kolobrzeg': ['Gdansk', 'Wroclaw'], 'Warsaw': ['Gdansk', 'Wroclaw']})
+Processing demand: Kolobrzeg to Warsaw
+Added path Kolobrzeg to Warsaw
+defaultdict(<type 'list'>, {'Wroclaw': ['Kolobrzeg'], 'Krakow': ['Kolobrzeg'], 'Rzeszow': ['Kolobrzeg'], 'Szczecin': ['Kolobrzeg', 'Wroclaw'], 'Bydgoszcz': ['Kolobrzeg', 'Wroclaw'], 'Bialystok': ['Kolobrzeg'], 'Lodz': ['Kolobrzeg'], 'Katowice': ['Kolobrzeg', 'Warsaw'], 'Poznan': ['Kolobrzeg'], 'Gdansk': ['Kolobrzeg', 'Wroclaw'], 'Warsaw': []})
+Processing demand: Katowice to Rzeszow
+Added path Katowice to Rzeszow
+defaultdict(<type 'list'>, {'Wroclaw': ['Katowice', 'Warsaw'], 'Krakow': ['Katowice', 'Warsaw', 'Wroclaw'], 'Szczecin': ['Katowice'], 'Bydgoszcz': ['Katowice'], 'Bialystok': ['Katowice'], 'Poznan': ['Katowice'], 'Lodz': ['Katowice', 'Krakow'], 'Rzeszow': [], 'Kolobrzeg': ['Katowice'], 'Gdansk': ['Katowice'], 'Warsaw': ['Katowice']})
+Processing demand: Szczecin to Bialystok
+Added path Szczecin to Bialystok
+defaultdict(<type 'list'>, {'Wroclaw': ['Szczecin'], 'Krakow': ['Szczecin'], 'Rzeszow': ['Szczecin'], 'Bydgoszcz': ['Szczecin'], 'Bialystok': [], 'Poznan': ['Szczecin', 'Warsaw'], 'Lodz': ['Szczecin'], 'Katowice': ['Szczecin'], 'Kolobrzeg': ['Szczecin', 'Katowice'], 'Gdansk': ['Szczecin'], 'Warsaw': ['Szczecin']})
+Processing demand: Bialystok to Kolobrzeg
+Added path Bialystok to Kolobrzeg
+defaultdict(<type 'list'>, {'Wroclaw': ['Bialystok'], 'Krakow': ['Bialystok'], 'Rzeszow': ['Bialystok', 'Katowice'], 'Szczecin': ['Bialystok'], 'Bydgoszcz': ['Bialystok'], 'Poznan': ['Bialystok'], 'Lodz': ['Bialystok'], 'Katowice': ['Bialystok'], 'Kolobrzeg': [], 'Gdansk': ['Bialystok', 'Katowice'], 'Warsaw': ['Bialystok', 'Katowice']})
+Processing demand: Warsaw to Kolobrzeg
+Added path Warsaw to Kolobrzeg
+defaultdict(<type 'list'>, {'Wroclaw': ['Warsaw'], 'Krakow': ['Warsaw', 'Wroclaw'], 'Rzeszow': ['Warsaw'], 'Szczecin': ['Warsaw'], 'Bydgoszcz': ['Warsaw', 'Katowice'], 'Bialystok': ['Warsaw', 'Katowice'], 'Poznan': ['Warsaw'], 'Lodz': ['Warsaw', 'Katowice', 'Krakow'], 'Katowice': ['Warsaw'], 'Kolobrzeg': [], 'Gdansk': ['Warsaw', 'Katowice']})
+Distributed: 132
+Not distributed: 0
+Total number of new links deployed:  89
+Total money spent:  4506060.0 PLN
+Program execution: 0.585546016693s
